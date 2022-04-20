@@ -221,7 +221,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 ALIVE_TEKS_CUSTOM = os.environ.get("ALIVE_TEKS_CUSTOM", None)
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "Bagaskara-Userbot")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✪")
@@ -256,7 +256,7 @@ ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = (
-    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
+    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/b2e97030d6b875cec5b10.jpg"
 )
 
 INLINE_PIC = (
