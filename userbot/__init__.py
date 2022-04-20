@@ -624,7 +624,7 @@ with bot:
                                 "https://t.me/@dailyabin12"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/ybgskr12/Bagaskara-Userbot2"),
+                                "https://github.com/Sukunaproject/Bagaskara-Userbot2"),
                         ],
                     ],
                     link_preview=False,
@@ -665,7 +665,7 @@ with bot:
                 result = builder.article(
                     title="✨ 𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 ✨",
                     description="𝐀𝐁𝐈𝐍 - 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 | Telethon",
-                    url="https://t.me/allfucek",
+                    url="https://t.me/dailyabin12",
                     thumb=InputWebDocument(
                         ALIVE_LOGO,
                         0,
@@ -679,7 +679,7 @@ with bot:
                                 "https://t.me/dailyabin12"),
                             custom.Button.url(
                                 "Repo",
-                                "https://github.com/ybgskr12/Bagaskara-Userbot2"),
+                                "https://github.com/Sukunaproject/Bagaskara-Userbot2"),
                         ],
                     ],
                     link_preview=False,
