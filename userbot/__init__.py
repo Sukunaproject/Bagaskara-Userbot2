@@ -563,7 +563,7 @@ with bot:
                 current_page_number = int(looters)
                 buttons = paginate_help(
                     current_page_number, dugmeler, "helpme")
-                text = f"**🕹️ Bagaskara-Userbot Inline Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**",
+                text = f"**🕹️ 𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 Inline Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**",
                 await event.edit(
                     text,
                     file=ciliklogo,
@@ -582,7 +582,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**🕹️ Bagaskara-Userbot Inline Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**"
+                text = f"**🕹️ 𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 Inline Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**"
                 await event.edit(
                     text,
                     file=ciliklogo,
@@ -603,25 +603,25 @@ with bot:
                 result = await event.builder.photo(
                     file=ciliklogo,
                     link_preview=False,
-                    text = f"**🕹️ Bagaskara-Userbot Inline Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**",
+                    text = f"**🕹️ 𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 Inline Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Bagaskara - Userbot",
-                    url="https://t.me/allfucek",
+                    description="Repository 𝐀𝐁𝐈𝐍 - 𝐔𝐒𝐄𝐑𝐁𝐎𝐓",
+                    url="https://t.me/dailyabin12",
                     thumb=InputWebDocument(
                         ALIVE_LOGO,
                         0,
                         "image/jpeg",
                         []),
-                    text="**Bagaskara-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✪ **Owner Repo :** [ʙᴧɢᴧsҡᴧʀᴧ </>](https://t.me/ybgskr)\n✪ **Support :** @allfucek\n✪ **Repository :** [Bagaskara-Userbot](https://github.com/ybgskr12/Bagaskara-Userbot2)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓**\n➖➖➖➖➖➖➖➖➖➖\n✪ **Owner Repo :** [𝐀𝐁𝐈𝐍 </>](https://t.me/Skylarvern)\n✪ **Support :** @dailyabin12\n✪ **Repository :** [𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓](https://github.com/ybgskr12/Bagaskara-Userbot2)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/allfucek"),
+                                "https://t.me/@dailyabin12"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
                                 "https://github.com/ybgskr12/Bagaskara-Userbot2"),
@@ -663,20 +663,20 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ Bagaskara-Userbot ✨",
-                    description="Bagaskara - Userbot | Telethon",
+                    title="✨ 𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 ✨",
+                    description="𝐀𝐁𝐈𝐍 - 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 | Telethon",
                     url="https://t.me/allfucek",
                     thumb=InputWebDocument(
                         ALIVE_LOGO,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Bagaskara-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✪ **Owner :** [{user.first_name}](tg://user?id={user.id})\n✪ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Updates:** @loveisfuckedup\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓**\n➖➖➖➖➖➖➖➖➖➖\n✪ **Owner :** [{user.first_name}](tg://user?id={user.id})\n✪ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Updates:** @loveisfuckedup\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Groups",
-                                "https://t.me/allfucek"),
+                                "https://t.me/dailyabin12"),
                             custom.Button.url(
                                 "Repo",
                                 "https://github.com/ybgskr12/Bagaskara-Userbot2"),
@@ -728,7 +728,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Kyy-Userbot
                 # https://t.me/TelethonChat/115200                               # @Fliks-Userbot    
                 text = (
-                    f"**🕹️ Bagaskara-Userbot Inline Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**")
+                    f"**🕹️ 𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 Inline Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**")
                 await event.edit(
                     text,
                     file=ciliklogo,
