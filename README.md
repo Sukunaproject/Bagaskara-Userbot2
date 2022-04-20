@@ -10,7 +10,7 @@
    </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/63267910585608a6302b0.jpg">
+  <img src="https://telegra.ph/file/b2e97030d6b875cec5b10.jpg">
 </p>
 
 Bagaskara-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
