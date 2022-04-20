@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./resources/GeezFire.gif" width="35px">BAGASKARA-USERBOT<img src="./resources/GeezFire.gif" width="35px"></h1>
+<h1 align="center"><img src="./resources/GeezFire.gif" width="35px">𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓<img src="./resources/GeezFire.gif" width="35px"></h1>
 <p align="center">
     <img alt="BAGASKARA VERSION" src="https://img.shields.io/badge/BAGASKARA%20VERSION-4.+-brightgreen"/>
     <img alt="BUILD IN" src="https://img.shields.io/badge/BUILD%20-Last Day-brightgreen"/>
