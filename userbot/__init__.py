@@ -356,7 +356,7 @@ except Exception as e:
     
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**Bagaskara-Userbot v{BOT_VER} is back up and running!**\n\n"
+        f"**𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 v{BOT_VER} is back up and running!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {owner}"
