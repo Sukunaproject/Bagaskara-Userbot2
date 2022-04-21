@@ -157,8 +157,8 @@ SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 OWNER_ID = int(os.environ.get("OWNER_ID") or 0)
 
 # Support
-GROUP = os.environ.get("GROUP", "allfucek")
-CHANNEL = os.environ.get("CHANNEL", "loveisfuckedup")
+GROUP = os.environ.get("GROUP", "ayo_sini_mutualan")
+CHANNEL = os.environ.get("CHANNEL", "dailyabin12")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
