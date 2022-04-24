@@ -260,7 +260,7 @@ ALIVE_LOGO = (
 )
 
 INLINE_PIC = (
-    os.environ.get("INLINE_PIC") or "ALIVE_LOGO"
+    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/c9b0230f5f8f136b64d9f.jpg"
 )
 
 # Picture For VCPLUGIN
@@ -616,7 +616,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓**\n➖➖➖➖➖➖➖➖➖➖\n✪ **Owner Repo :** [𝐀𝐁𝐈𝐍 </>](https://t.me/Skylarvern)\n✪ **Support :** @dailyabin12\n✪ **Repository :** [𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓](https://github.com/ybgskr12/Bagaskara-Userbot2)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓**\n➖➖➖➖➖➖➖➖➖➖\n✪ **Owner Repo :** [𝐀𝐁𝐈𝐍 </>](https://t.me/Skylarvern)\n✪ **Support :** @dailyabin12\n✪ **Repository :** [𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓](https://github.com/Sukunaproject/Bagaskara-Userbot2)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
