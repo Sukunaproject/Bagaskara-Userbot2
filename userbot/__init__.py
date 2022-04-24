@@ -256,7 +256,7 @@ ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = (
-    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/b2e97030d6b875cec5b10.jpg"
+    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/c9b0230f5f8f136b64d9f.jpg"
 )
 
 INLINE_PIC = (
@@ -563,7 +563,7 @@ with bot:
                 current_page_number = int(looters)
                 buttons = paginate_help(
                     current_page_number, dugmeler, "helpme")
-                text = f"**🕹️ 𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 Inline Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**",
+                text = f"**🕹️ 𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 Inline Bot Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**",
                 await event.edit(
                     text,
                     file=ciliklogo,
@@ -582,7 +582,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**🕹️ 𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 Inline Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**"
+                text = f"**🕹️ 𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 Inline Bot Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**"
                 await event.edit(
                     text,
                     file=ciliklogo,
@@ -603,7 +603,7 @@ with bot:
                 result = await event.builder.photo(
                     file=ciliklogo,
                     link_preview=False,
-                    text = f"**🕹️ 𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 Inline Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**",
+                    text = f"**🕹️ 𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 Inline Bot Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -728,7 +728,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Kyy-Userbot
                 # https://t.me/TelethonChat/115200                               # @Fliks-Userbot    
                 text = (
-                    f"**🕹️ 𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 Inline Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**")
+                    f"**🕹️ 𝐀𝐁𝐈𝐍-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 Inline Bot Menu 🕹️**\n\n🧸 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔮 **Jumlah :** `{len(dugmeler)}` **Modules**")
                 await event.edit(
                     text,
                     file=ciliklogo,
